@@ -88,7 +88,7 @@ public class Keys {
         // Commands
         game.getCommandManager().register(this, KeysCommands.getCommand(), "keys");
         game.getCommandManager().register(this, LockCommand.getCommand(), "lock");
-        game.getCommandManager().register(this, UnlockCommand.getCommand(), "unlock");
+        game.getCommandManager().register(this, UnlockCommand.getCommand(), "unlockblock");
 
         // Listeners
         game.getEventManager().registerListeners(this, new ChangeBlockListener());
